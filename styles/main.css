@@ -41,12 +41,17 @@ body {
 }
 
 .container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
     padding-top: 150px;
     background-color: #3CDBC0;
     color: #FFFFFF;
     text-align: center;
     font-size: 30px;
-    min-height: 80%
+    min-height: 100%;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
 @media all and (min-width: 768px){
